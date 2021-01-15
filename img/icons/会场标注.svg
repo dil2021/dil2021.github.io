@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="312px" height="73px" viewBox="0 0 312 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>会场标注</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC-HOME" transform="translate(-485.000000, -1301.000000)">
+            <g id="编组" transform="translate(485.000000, 1301.000000)">
+                <path d="M287.5,0 C301.030976,0 312,10.9690236 312,24.5 L312,25.5 C312,39.0309764 301.030976,50 287.5,50 L158.607,50 L155.553494,72.6384229 L153.107,50 L24.5,50 C10.9690236,50 0,39.0309764 0,25.5 L0,24.5 C0,10.9690236 10.9690236,0 24.5,0 L287.5,0 Z" id="矩形-2" fill="#000000"></path>
+                <text id="Beaulieu-Convention" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" letter-spacing="0.333333338" fill="#FFFFFF">
+                    <tspan x="18" y="32">Beaulieu Convention Center</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

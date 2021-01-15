@@ -1,0 +1,143 @@
+<!-- <!doctype html> -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <script src="./js/swiper.min.js"></script> -->
+    <link rel="stylesheet" href="../css/CallforPapers.css" >
+     <script src="../js/jquery-1.11.1.min.js"></script>
+    <title>Workshop</title>
+  </head>
+  <body>
+   
+     <!-- 头部导航栏开始 -->
+     <div class="header_zhanwei" style="width: 100%;height: 60px;background-color: rgb(255, 255, 255);"></div>
+     <div class="header_wrap" style="width: 100%;background-color: black;position: fixed;left: 0;top: 0;">
+             <div class=" header_box">
+                 <div class="logo_wrap">
+                     <div class="logo_box">
+                         <img src="../img/imgs/LOGO.svg" alt="">
+                     </div>
+                 </div>
+                 <div class="linkPages"> 
+                         <ul class="nav_wrap">
+                             <li><a href="../index.html">Home</a></li>
+                             <li class="currentLi"><a href="#">Call for Papers</a></li>
+                             <li ><a href="./Program.html">Program</a></li>
+                             <li><a href="./People.html">People</a></li>
+                         </ul>
+                 </div>
+                  <!-- 移动端的菜单按钮开始 -->
+                  <div class="cebianBtn" id="chebian_btn">
+                     <img src="../img/icons/导航按钮.svg" alt="">
+                     <img src="../img/icons/关闭按钮.svg" alt="">
+                 </div>
+                 
+                 <!-- 移动端的菜单按钮结束 -->
+             </div>
+             <!-- 移动端导航栏开始 -->
+             <div class="wise_navbar" id="wise_navbar">
+                 <ul class="nav_ul">
+                     <li class="nav_li" ><a href="../index.html">Home</a></li> 
+                     <li class="nav_li" onclick="hiddenHover()"><a href="#">Call for Papers</a></li>
+                     <li class="nav_li"><a href="./Program.html">Program</a></li>
+                     <li class="nav_li"><a href="./People.html">People</a></li>
+                 </ul>
+             </div>
+             <!-- 移动端导航结束 -->
+     </div>
+     <!-- 头部导航栏结束 -->
+ <!-- banner板块开始 -->
+    <div class="banner_wrap" >
+        <div class="banner_text">
+            <h3> Call for Papers</h3>
+            <!-- <p>Workshop on Document Image and Language</p> -->
+           
+        </div>
+        <div class="banner_bigimg"> </div>
+    </div>   
+    <!-- banner板块结束 -->
+            <!-- 文本内容模块开始 -->
+            <div class="content_box">
+                <!-- topics开始 -->
+                <div class="topics_wrap">
+                    <h3>Topics:</h3>
+                    <ul class="topics_ul">
+                        <li class="topic_con">
+                            <h4>* More Robust OCR</h4>
+                            <p>1.Post-OCR Text Correction</p>
+                            <p>2.NLP Enhanced OCR</p>
+                        </li>
+                        <li class="topic_con">
+                            <h4>* More Robust OCR</h4>
+                            <p>1.Document Entity Recognition</p>
+                            <p>2.Document Entity Relationship, esp, Visual Question Answering(DocVQA)</p>
+                            <p>3.Document Layout Understanding</p>
+                            <p> 4.Cross-Modal (such as text/speech and image) Document</p>
+                        </li>
+                        <li class="topic_con">
+                            <h4>* Learned Document Image Knowledge</h4>
+                            <p>1.Pretrained Model for Document Analysis</p>
+                            <p>2.Language Model for Document Information Extraction</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- topics结束 -->
+                <div class="intro_wrap"> 
+                    <h2>Submission: </h2>
+                    <p class="lead">The first WDIL is calling for original and unpublished papers on topics of interest as above . 
+                        The submitted papers should be no more than 6 pages. Since this year, the ICDAR main conference planned to 
+                        publish the proceedings with Springer <a href="https://icdar2021.org/author-instructions/" style="color:#1E8EFF;text-decoration:underline;">LNCS</a>. Papers should be formatted according to LNCS 
+                        instructions for authors. Papers have to be submitted via the workshop's Easychair submission page.
+                </div>
+                <!-- <img src="./img/imgs/PC-map.png" class="img-fluid" alt="Responsive image" style="margin: 0 auto;"> -->
+               
+                <!-- 具体年月日开始 -->
+                <div class="ddl_wrap">
+                    <ul class="contentWrap">
+                        <h4 class="title">Paper Submission Dates:</h4>
+                        <!-- <li class="content">
+                            <strong>Paper Submission Dates:</strong>
+                            <span> </span>
+                        </li> -->
+                        <li class="content">
+                            <strong>Workshop paper submission deadline ：</strong>
+                            <span class="contentSpan2"> May 17</span>
+                        </li>
+                        <li class="content">
+                            <strong>Workshop paper notification ：</strong>
+                            <span class="contentSpan3"> June 21</span>
+                        </li>
+                        <li class="content">
+                            <strong>Workshop camera-ready paper submissions：</strong>
+                            <span class="contentSpan4">July 5 </span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 具体年月日结束 -->
+                <!-- 邮件板块开始 -->
+                <div class="email_wrap">
+                    <h4>Contact:  </h4>
+                    <p>
+                        <i><img src="../img/icons/Emil.svg" alt=""></i>
+                        <a href="">ocr-nlp.workshop@baidu.com</a>
+                    </p>
+                </div>
+                <!-- 邮件板块结束 -->
+            </div>
+        <!-- 文本内容模块结束 -->
+</body>
+    <script src="../js/index.js"></script>
+    <script type="text/javascript">
+         // 表示当前所在页面的状态变量
+    localStorage.setItem("currentPage","1")
+    var currentPage=localStorage.getItem("currentPage")
+    console.log("当前是在页面是：",currentPage)
+    function hiddenHover(){
+        // $("#wise_hover").fadeOut();
+        $("#wise_navbar").css({"height":"0px"});
+        $("#chebian_btn img").eq(1).fadeOut().siblings().fadeIn();
+     }
+    </script>
+</html>
