@@ -110,7 +110,7 @@ a:hover{
 
 
 }
-.nav_wrap li:nth-child(3){
+.nav_wrap li:nth-child(2){
     opacity: 1;
 
 }
@@ -203,7 +203,7 @@ a:hover{
     letter-spacing: 0;
     line-height: 36px;
 }
-.content_box .intro_wrap p.lead{
+.content_box .intro_wrap .lead{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -596,7 +596,7 @@ a:hover{
     letter-spacing: 0;
     line-height: 36px;
 }
-.content_box .intro_wrap p.lead{
+.content_box .intro_wrap .lead{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -613,6 +613,10 @@ a:hover{
     text-align: justify;
     line-height: 32px;
     /* background-color: red; */
+}
+.content_box .intro_wrap li::marker{
+    padding: 0;
+    margin: 0 !important;
 }
 /* Topics开始 */
 .topics_wrap{

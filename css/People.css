@@ -13,7 +13,7 @@ a:hover{
     text-decoration: none;
 }
 
-
+ 
 /* copyright板块结束 */
 @media screen and (min-width:577px){
     /* 头部导航栏 */
@@ -233,7 +233,14 @@ a:hover{
     height: 222px;
     /* margin-right: 30px; */
     background-color: rgb(136, 136, 136);
-    /* background: url(../img/icons/); */
+    overflow: hidden;
+}
+.person_ul .person_li .person_img img{
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .person_ul .person_li .text_wrap{
     float: right;
@@ -591,7 +598,14 @@ a:hover{
     height: 40vw;
     /* margin-right: 30px; */
     background-color: rgb(136, 136, 136);
-    /* background: url(../img/icons/); */
+    overflow: hidden;
+}
+.person_ul .person_li .person_img img{
+    height: 100%;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .person_ul .person_li .text_wrap{
     float: right;
