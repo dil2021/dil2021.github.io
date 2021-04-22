@@ -303,10 +303,18 @@ a:hover {
         background-color: rgb(136, 136, 136);
         overflow: hidden;
         display: block;
-        width: 239px;
-        height: 239px;
-        margin-right: 40px;
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
         /* overflow: hidden; */
+    }
+
+    .content_box .intro_wrap .content_ul .content_li .person_img img {
+        height: 100%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .liTittle {
@@ -639,8 +647,8 @@ a:hover {
     }
 
     .content_box .intro_wrap .content_ul .content_li .person_img {
-        height: 42vw;
-        width: 40%;
+        height: 35vw;
+        width: 30%;
         float: left;
         /* margin-right: 30px; */
         background-color: rgb(136, 136, 136);
