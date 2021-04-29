@@ -300,7 +300,7 @@ a:hover {
     .content_box .intro_wrap .content_ul .content_li .person_img {
         float: left;
         /* margin-right: 30px; */
-        background-color: rgb(136, 136, 136);
+        /* background-color: rgb(136, 136, 136); */
         overflow: hidden;
         display: block;
         width: 200px;
@@ -651,7 +651,7 @@ a:hover {
         width: 30%;
         float: left;
         /* margin-right: 30px; */
-        background-color: rgb(136, 136, 136);
+        /* background-color: rgb(136, 136, 136); */
         overflow: hidden;
         margin-right: 20px;
         margin-top: 20px;
