@@ -297,6 +297,7 @@ a:hover{
 }
 .contentSpan2{
     margin-left:80px !important;
+    color: #ff0000 !important;
 
 }
 .contentSpan3{
@@ -817,6 +818,10 @@ a:hover{
     width: 50px;
     background-color: rgb(255, 255, 255);
    
+}
+.contentSpan2{
+    color: #ff0000 !important;
+
 }
 /* copyright板块结束 */
 
